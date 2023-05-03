@@ -1,0 +1,104 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "judy",
+    "dateExported": "2023-05-03T07:17:34.872Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "27e82c41-2042-415b-aabc-8215b6121fc8",
+            "colId": "2229f175-0bb1-467c-ab1b-705437305a45",
+            "containerId": "",
+            "name": "get",
+            "url": "http://localhost:4000/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-05-03T07:15:59.913Z",
+            "modified": "2023-05-03T07:15:59.913Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\r\n        \"firstName\": \"Ode\",\r\n        \"lastName\": \"Seguerra\"\r\n\r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "09e7271a-b983-451f-a950-07a55594e5a3",
+            "colId": "2229f175-0bb1-467c-ab1b-705437305a45",
+            "containerId": "",
+            "name": "delete",
+            "url": "http://localhost:4000/users/2",
+            "method": "DELETE",
+            "sortNum": 20000,
+            "created": "2023-05-03T07:16:21.140Z",
+            "modified": "2023-05-03T07:16:21.140Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\r\n        \"firstName\": \"Ode\",\r\n        \"lastName\": \"Seguerra\"\r\n\r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "aa896da9-c9e9-46f4-a60d-27d44406fd85",
+            "colId": "2229f175-0bb1-467c-ab1b-705437305a45",
+            "containerId": "",
+            "name": "put",
+            "url": "http://localhost:4000/users/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-05-03T07:16:39.311Z",
+            "modified": "2023-05-03T07:16:39.311Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n\r\n        \"firstName\": \"Ode\",\r\n        \"lastName\": \"Seguerra\"\r\n\r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "7809497d-8f29-444a-b274-ec1e84ffaeea",
+            "colId": "2229f175-0bb1-467c-ab1b-705437305a45",
+            "containerId": "",
+            "name": "get all",
+            "url": "http://localhost:4000/users/1",
+            "method": "GET",
+            "sortNum": 40000,
+            "created": "2023-05-03T07:16:55.155Z",
+            "modified": "2023-05-03T07:16:55.155Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n        \"title\": \"Student\",\r\n        \"firstName\": \"Judy\",\r\n        \"lastName\": \"Decipulo\",\r\n        \"role\": \"Admin\",\r\n        \"email\": \"jdecipulo@gmail.com\",\r\n        \"password\": \"decipulo\",\r\n        \"confirmPassword\":\"decipulo\" \r\n    }",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "8713b72d-3956-45a8-be5c-3ca1493d4788",
+            "colId": "2229f175-0bb1-467c-ab1b-705437305a45",
+            "containerId": "",
+            "name": "post",
+            "url": "http://localhost:4000/users",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-05-03T07:17:03.927Z",
+            "modified": "2023-05-03T07:17:03.927Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\r\n        \"title\": \"Student\",\r\n        \"firstName\": \"Judy\",\r\n        \"lastName\": \"Decipulo\",\r\n        \"role\": \"Admin\",\r\n        \"email\": \"jdecipulo@gmail.com\",\r\n        \"password\": \"decipulo\",\r\n        \"confirmPassword\":\"decipulo\" \r\n    }",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
